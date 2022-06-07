@@ -1,0 +1,263 @@
+
+.entrada{
+   
+    width: 100vh;
+    max-width: 100%;
+    overflow: hidden;
+}
+.entrada h1{
+    overflow: hidden;
+    text-indent: 90px;
+    color: white;
+    padding: 10px 0;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    font-size: 29px;
+}
+.salir{
+    border-radius: 10px;
+    background: rgb(255, 7, 7);
+    margin: 180px;
+    margin-left: 43px; 
+    text-align: center;
+    width: 45px;
+
+}
+.salir a{
+    
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/*css de imagenes class menu y menu-cont y javascreipt*/
+.menu img{
+    
+    vertical-align: top;
+
+    cursor: pointer;
+    background: transparent;
+    border-radius: 10px;
+    width: 28px;
+    height: 28px;
+    
+}
+.menu {
+    margin: 0;
+    position: relative;
+    z-index: 10;
+    top: -30px;
+    left: 30px;
+}
+.cont-menu{
+    background-color: #27293b;
+    box-shadow: 2px 0px 5px 2px rgb(66, 66, 66);
+    width: 200px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+    position: absolute;
+}
+.active{
+    transform: translate(-600px);
+}
+.opacity{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all .5s ease;
+}
+.cont-menu ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+}
+.cont-menu ul li{
+    color: white;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+
+}
+.cont-menu ul li:hover{
+    background-color: rgb(228, 228 228);
+    color: rgb(42, 42, 42);
+
+}
+
+
+/*.menu1{
+    top: 30px;
+    right: 30px;
+    background: #fff;
+    width: 28px;
+    height: 28px;
+    border-radius: 10px;
+    cursor: pointer;
+}*/
+
+.head{
+    background: #1025a1;
+
+}
+body{
+   
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/*css de imagenes class contenedor-imagenes*/
+/*.contenedor-imagen1{
+    
+    overflow: hidden;
+    
+    width: 14%;
+    border-radius: 30px;
+    margin: 80px 40px;
+    
+}
+
+
+.contenedor-imagen1 img{
+    border-radius: 30px;
+    
+}
+
+.txt-contenedor-imagen1{
+    
+    overflow: hidden;
+    
+    width: 14%;
+    
+    margin: -460px 325px;
+
+}
+
+.txt-contenedor-imagen1 h3{
+    font-size: 15px;
+    
+    
+}
+.txt-contenedor-imagen2 {
+    background-color: #1025a1;
+   text-align: center;
+    width: 46%;
+    margin: 60px 60px ;
+    
+    
+    
+
+}
+.txt-contenedor-imagen2 h2{
+    color: white;
+    font-size: 40px;
+
+
+}
+
+.txt-contenedor-imagen3 {
+    background-color: #1025a1;
+    text-align: center;
+    width: 44%;
+    margin: -59.9px 80px ;
+    overflow: hidden;
+    
+    
+
+}
+.txt-contenedor-imagen3 h2{
+    color: white;
+    font-size: 40px;
+}
+
+.contenedor-imagen4{
+
+    overflow: hidden;
+
+    width: 20%;
+    border-radius: 30px;
+    margin: 4px 54%;
+}
+.contenedor-imagen4 img{
+
+    border-radius: 30px;
+
+}*/
+.hol{
+    
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+.hol1{
+    overflow: hidden;
+    height: 100vh;
+   
+}
+.contenedor-total{
+    background: wheat;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.txt-contenedor-texto{
+    background: #1025a1;
+    width: 92%;
+    margin-top: 70px;
+    margin-left: 40px;
+    text-align: center;
+
+}
+.txt-contenedor-texto h2{
+    font-size: 41px;
+    font-family: 'DM sans';
+    color: white;
+}
+.txt-contenedor-texto2{
+    background: #1025a1;
+    width: 89%;
+    text-align: center;
+    margin-top: -40px;
+    margin-left: 57px;
+
+}
+.txt-contenedor-texto2 h2{
+    font-size: 41px;
+    color: white;
+    font-family: 'DM sans';
+}
+.contenedor-imagen1{
+
+    margin-left: 43px;
+    margin-top: 15px;
+
+}
+.contenedor-imagen1 img{
+    border-radius: 20px;
+}
+.txt-contenedor-imagen1{
+    margin-top: -380px;
+    margin-left: 330px;
+}
+.txt-contenedor-imagen1 h3{
+    font-size: 19px;
+}
+.contenedor-imagen2{
+    margin-top: 72px;
+    margin-left: 60px;
+    
+}
+.txt-contenedor-imagen2{
+    margin-top: -390px;
+    margin-left: 590px;
+}
+
+.txt-contenedor-imagen2 h3{
+
+    font-size: 19px;
+    width: 70%;
+}
